@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Seoul Restaurant </title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <!-- Link to bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <!-- Link to theme CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <!-- Link to responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.datetimepicker.css' %}">
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Link to color CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/colors/color1.css' %}" id="colors">
+    <!-- Link to animation CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+    <!-- Favicon and touch icons  -->
+    <link href="{% static 'icon/apple-touch-icon-48-precomposed.png' %}" rel="apple-touch-icon" sizes="48x48">
+    <link href="{% static 'icon/apple-touch-icon-32-precomposed.png' %}" rel="apple-touch-icon-precomposed">
+    <link href="{% static 'assets/favicon.png' %}" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="{% static 'thtml5shiv.js' %}"></script>
+        <script src="{% static 'js/respond.min.js' %}"></script>
+        <![endif]-->
+    </head>    
+
+    <body class=""> 
+        <section class="loading-overlay">
+            <div class="Loading-Page">
+                <h2 class="loader">Loading</h2>
+            </div>
+        </section>  
+
+
+            <header id="header" class="header clearfix">
+                <div class="header-wrap clearfix">
+                    <div class="container">
+                    <div class="logo-mobi"><a href="#"></a><img src="{% static 'assets/logo.png' %}" height=100px, width=100px alt="image" style = "margin-left: 8rem" ></div>
+                    <div class="btn-menu">
+                        <span></span>
+                    </div>
+                        <nav id="mainnav" class="mainnav" style = "margin-right: 50px">
+                            <ul class="menu">
+                                <li class="has-sub">   
+                                    <a href="#">Home</a>
+                                </li>
+                                <li> <a href="/menu/">Menu</a>
+
+                                </li>
+                                <li class="logo">
+                                    <a href="/"> <img src="{% static 'assets/logo.png' %}"width=100px, height=100px  alt="image"></a>
+                                </li>
+
+                                <li> <a href="/contact/">Contact</a></li>
+                            </ul><!--/.menu -->                                      
+                        </nav><!--/.mainnav -->
+                    </div><!--/.container -->
+                </div><!--/.header-wrap -->
+            </header><!--/.header -->  
+
+
+    <!-- Slider -->
+
+
+
+            <section class="flat-row flat-testimonial index-3" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title-section mar-gb-27px">
+                                <h1 class="title" style="margin-top: 20px">About Us</h1>
+                            </div>
+                        </div><!--col-md-12-->
+                    </div><!--row-->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flat-carousel">
+                                <div class="owl-carousel-services">
+                                    <div class="item-owl">
+                                        <div class="blockquote-testimo">
+                                            <p>
+                                                Welcome to Seoul Restaurant, a vibrant Korean culinary haven where authenticity meets innovation. Immerse yourself in the rich flavors of traditional Korean dishes, thoughtfully prepared with fresh, locally sourced ingredients. Our warm ambiance, attentive staff, and a menu boasting classics like bulgogi and bibimbap ensure a memorable dining experience. Join us at Seoul Restaurant, where every meal is a celebration of Korean gastronomy.
+                                        </div><!--/.owl-carousel-services-v2-->
+                                    </div><!--/.flat-carousel-v2-->
+                                </div><!--/.col-md-12-->
+                            </div><!--/.row-->
+                        </div><!--/.container -->
+                    </div>
+                </div>
+            </section>
+
+
+
+            <html>
+            <head>
+                <style>
+                    .title-section.style2 {
+                        text-align: center;
+                    }
+                    .title {
+                        margin: 0 auto;
+                        display: inline-block;
+                    }
+                </style>
+            </head>
+            <body>
+<section class="flat-row flat-imagebox index-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-section style2 ">
+                    <div class="top-section">
+                        <p>Discover</p>
+                    </div>
+                    <h1 class="title">Hot Menu</h1>
+                </div>
+            </div><!--col-md-12-->
+        </div><!--row-->
+
+        <div class="row">
+            <div class="flat-divider d10px"></div>
+            <div class="item">
+                <div class="imagebox effect1">
+                    <div class="box-wrap">
+                        <div class="box-image">
+                            <a href="#"><img src="{% static 'assets/menu/bibimbap.jpg' %}" alt="images" style="border-radius: 10%; overflow: hidden;"></a>
+                        </div>
+                        <div class="box-content">
+                            <h5 style="display: inline-block; ">Bibimbap<span class="fa fa-leaf" style="color: green; "></span></h5>
+                            <h5 style="display: inline-block; color: grey;">(Beef or Tofu)</h5>
+
+                             <ul>
+                                <li>$16.50</li>
+                                <li >
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imagebox effect1">
+                    <div class="box-wrap">
+                        <div class="box-image">
+                            <a href="#"><img src="{% static 'assets/menu/bulgogi.jpg' %}" alt="images" style="border-radius: 10%; overflow: hidden;"></a>
+                        </div>
+                        <div class="box-content">
+                             <h5>Bulgogi</h5>
+                             <ul>
+                                <li>$22.00</li>
+
+                                <li >
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imagebox effect1">
+                    <div class="box-wrap">
+                        <div class="box-image">
+                            <a href="#"><img src="{% static 'assets/menu/jampong.jpg' %}" alt="images" style="border-radius: 10%; overflow: hidden;"></a>
+                        </div>
+                        <div class="box-content">
+                             <h5>Jampong<span class="fa fa-fire" style="color: red;"></span></h5>
+                             <ul>
+                                <li>$17.50</li>
+                                <li >
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="imagebox effect1">
+                    <div class="box-wrap">
+                        <div class="box-image">
+                            <a href="#"><img src="{% static 'assets/menu/kimbab.jpeg' %}" alt="images" style="border-radius: 10%; overflow: hidden;"></a>
+                        </div>
+                        <div class="box-content">
+                            <h5>Kimbab</h5>
+                            <ul>
+                                <li>$13.50</li>
+                                <li >
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                    <i class="fa fa-heart" style="color: red;"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--row-->
+    </div><!--container -->
+</section>
+
+<!-- Flat Tab-->
+<section class="flat-row flat-tab-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-section">
+                    <div class="top-section">Find About</div>
+                    <h1 class="title">Our Menu</h1>
+                </div>
+            </div><!--/.col-md-12-->
+        </div><!--/.row-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="flat-tabs">
+                    <ul class="menu-tab">
+                        <li><a href="#">Appetizers</a></li>
+                        <li><a href="#">Lunch Box(12pm~3pm) </a></li>
+                        <li><a href="#">Kimbab </a></li>
+                        <li><a href="#">Korean Dish  </a></li>
+                        <li><a href="#">Noodles  </a></li>
+                        <li><a href="#">Tang(Soup/Stew) </a></li>
+                        <li><a href="#">Jeon-Gol(Hotpot) </a></li>
+                        <li><a href="#">Chicken </a></li>
+                    </ul>
+
+                    <div class="content-tab">
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Vegetable Pancake 야채전<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></span></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$11.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Korean pancake with vegetables</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Kimchi Jeon 김치전<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$12.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Korean pancake with kimchi and onions</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/seafood_pancake.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Seafood Pancake 해물파전<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$16.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Korean pancake with seafood and green onions</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/bibim_chapchae.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bibim Chapchae 비빔당면<span class="fa fa-fire" style="color: red; margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Bibim Chapcchae is made from sweet potato noodles stir fried in sesame oil with varius vegetables in a special soy sauce </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chapchae.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Chapchae 잡채<span class="fa fa-leaf" style="color: green; margin-top: 5px"></a></h6>
+
+                                                <span>$12.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Chapchae is made from sweet potato noodles stir fried in sesame oil with various vegetabels</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Gunmandu 5pcs 군만두</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$6.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li><strong>Choice: Pork/Beef/Vegetable</strong><br>Deep fried 5pcs dumplings</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/shrimp_temp.jpeg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Shrimp Tempura 5pcs 새우튀김</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$19.9</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Tteokbokki 떡볶이<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$9.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li><strong>Add Cheese: $3.00</strong><br>Stir fried ricecake and fishcake in a special hotsauce</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Gimmari 5pcs 김말이<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$6.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Deep fried sweet potato noodle wrapped with seaweed </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/jeyuk_lunch.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jeyuk Lunch Box 제육 런치<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$13.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Lunch box consist of spicy pork, rice, salad, miso soup, kimchi, and dumplings</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chapchae_lunch.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Chapchae Lunch Box 잡채 런치<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$13.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Lunch box consist of chapchae, rice, salad, miso soup, kimchi, and dumplings</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/bulgogi_lunch.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bulgogi Lunch Box 불고기 런치</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Lunch box consist of bulgogi, rice, salad, miso soup, kimchi, and dumplings</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/ttek_galbi.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Pork Tteokgalbi Lunch Box 떡갈비 런치</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Lunch box consist of pork tteokgalbi, rice, salad, miso soup, kimchi, and dumplings  </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chicken_mayo.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Chicken-Mayo Lunch Box 치킨 마요 런치</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Lunch box consist of Chicken-Mayo, rice, salad, miso soup, kimchi, and dumplings </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/kimbab.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Kimbab 김밥</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$13.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Egg, crab meat, burdock, carrot, cucumber, picked radish</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/tuna_kimbab.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Tuna Kimbab 참치 김밥</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Tuna with mayo sauce, egg, crab meat, burdock, carrot, cucumber, pickled radish</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Spicypork Kimbab 제육 김밥<span class="fa fa-fire" style="color: red; margin-top: 5px"></span></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Spicy pork, egg, crab meat, burdock, carrot, cucumber, pickled radish </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/bulgogi_kimbab.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bulgogi Kimbab 불고기 김밥</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Bulgogi, egg, crab meat, burdock, cucumber, picked radish </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/bulgogi.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bulgogi 불고기</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$22.00</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Bulgogi is made from prime cut beef and usually marinated with seasoning sauce</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/jeyuk.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jeyuk Bokum 제육볶음<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$20.00</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Jeyuk bokum is marinated with a mixture of seasoning hot paste</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Galbi 갈비</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$26.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Galbi is beef short ribs marinated in a seasoning sauce</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chicken_bulgogi.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Chicken Bulgogi 치킨 불고기</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$22.00</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Chicken bulgogi is amde from boneless chikcen thigh and it is marinated with seasoning sauce</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/bibimbap.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Beebimbap 비빔밥<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+
+                                                <span>$16.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li><strong>Beef or Tofu </strong><br> rice topped with various cooked vegetables, such as zucchini, mushroom, bean sprouts, beef(tofu) and a fried egg.</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/stone_bibim.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Stone Beebimbap 돌솥 비빔밥<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+
+                                                <span>$17.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li><strong>Beef or Tofu</strong><br>Rice topped with various cooked vegetables such as zucchini, mushrooms, bean sprouts, beef(tofu) and a fried egg. Served in a hot stone bowl
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Tonkatsu 돈까스</a></h6>
+
+                                                <span>$17.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li><strong>Add extra piece: $6.00</strong> <br>Tonkatsu consists of a breaded, deep-fried pork cutlet sliced into bite-sized pieces</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/kimchi_bokkeumbap.jpeg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Kimchi Bokkeumbap 김치볶음밥<span class="fa fa-fire" style="color: red; margin-top: 5px"> </a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$16.00</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Kimchi fried rice with a fried egg on the top</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jajangrice 자장면</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Jajang rice consists of rice topped with a thick sauce made of chunjang(a salty black soybean paste), diced pork, and vegetables</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jampongrice 짬뽕밥 <span class="fa fa-fire" style="color: red; margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$17.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Jampongrice is a spicy soup flavoured with chilli oil, seafood, and vegetablee<br> Rice served on the side </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Tonkatsu Deopbap 돈까스 덮밥</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$16.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Deep fried breaded pork with vegetable on top of rice</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/ojingo.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Ojingeo Deopbap 오징어 덮밥<span class="fa fa-fire" style="color: red; margin-top: 5px"></a></h6>
+
+                                                <span>$18.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Stir-fried squid and vegetables on top of rice</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bulgogi Deopbap 불고기 덮밥</a></h6>
+
+                                                <span>$18.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Stir-fried bulgogi on top of rice with egg</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jeyuk Deopbap 제육 덮밥<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+
+                                                <span>$17.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Stir-fried spicy pork on top of rice</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/vegetable_stirfry.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Vegetable Stir-Fried Noodle 야채 우동<span class="fa fa-leaf" style="color: green;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$13.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Stir fry dish consisting of udon noodles seasoned with special soy sauce</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chapchae_noodle.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Chapchae 잡채<span class="fa fa-leaf" style="color: green; margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$16.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Chapchae is made from sweet potato noodles, stir friend in seasame oil with various vegetables</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/jampong.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jampong 짬뽕 <span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$17.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Jampong is a spicy noodle soup flavored with chilli oil, seafood and vegetable</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/mild_jampong.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Mild Jampong 백짬뽕</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$17.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Mild jampong is a noodle soup flavoured with seafood and vegetables</li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/jjajang.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Jajangmyeon 자장면</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$14.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Jajangmyeon consists of noodles topped with a thick sauce made of chunjang(a salty black soybean paste), diced pork, and vegetables</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">GamjaTang 감자탕<span class="fa fa-fire" style="color: red;  margin-top: 5px;"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$16.00</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Spicy Korean soup made of pork back-bone</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/galbitang.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Galbitang 갈비탕</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$20.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Galbitang made primarly from beef short ribs along with radish, green onions, and sweet potato noodles</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Deonjang Jigae 된장찌개<span class="fa fa-leaf" style="color: green; margin-top: 5px;"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Stew made with soybean paste, tofu, and vegetables</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/soontofu.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Soontofu Jigae 순두부찌개<span class="fa fa-leaf" style="color: green; margin-top: 5px;"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Soontofu jigae includes onions, seafood and more little things to bring out the wonderful taste of the soontofu jigae</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/kimchi_jigae.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Kimchi Jigae 김치찌개<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Kimchi jigae is spicy stew made with ripened kimchi, pork, and tofu</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Bulgogi Hot Pot 뚝배기 불고기</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$17.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Bulgogi with vegetables and sweet potato noodle in our traditional broth </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/dak_yukgaejang.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Dakyukgaejang 닭육개장<span class="fa fa-fire" style="color: red;  margin-top: 5px"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$18.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Spicy soup made with chicken, variety of vegetables, sweet potato noodle seasoned with red chilli powder</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/mandukuk.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Mandukuk 만둣국</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$15.50</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li><strong>Choice:Veggie/Beef/Pork</strong><br><strong>Extra dumpling: $1.50</strong><br> 8 pieces of dumplings, sweet potato noodles, and mixed in egg. </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/seoul_bulgogi.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Seoul Bulgogi 불고기</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>For 2 people: $47.99<br> For 3 people: $70.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>Bulgogi usually contains sliced, vegetables, sweet potato noodles, and other seasoning, which are boiled with a small amount of broth on a plate</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">gamjatang Hot Pot 감자탕전골<span class="fa fa-fire" style="color: red;  margin-top: 5px;"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>For 2 people: $38.99 <br> For 3 people: $55.99</span>
+                                            </div>
+
+                                            <ul class="menu-in">
+                                                <li>Gamjatang is pork backbone soup made with green cabbage leaves with sweet potato noodle</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/white.png' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Budae Jigae 부대찌개<span class="fa fa-fire" style="color: red;  margin-top: 5p"></a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>For 2 people: $38.99 <br> For 3 people: $55.99</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li>This food is oriented from korean war when hungry korean reused american army's leftovers</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                        <div class="content-inner">
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chicken.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Sunsal Chicken Large 순살치킨 라지</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$29.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li><strong>Choose sauce: sweet n spicy/soy sauce</strong><br> Deep-fried boneless chicken thigh with sauce on the side</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+
+
+                            <div class="col-md-6">
+                                <ul class="menu-fd">
+                                    <li>
+                                        <div class="media-wrap flat-hover-moveright">
+                                            <a href="#" class="pull-left">
+                                                <img src="{% static 'assets/menu/chicken.jpg' %}" width=100px, height=100px alt="client" class="img-responsive" style="border-radius: 10%; overflow: hidden;">
+                                            </a>
+                                            <div class="media-body">
+                                                <h6><a href="#">Sunsal Chicken Small 순살치킨 스몰</a></h6>
+                                                <div class="dotted-bg"></div>
+                                                <span>$18.50</span>
+                                            </div>
+                                            <ul class="menu-in">
+                                                <li><strong>Choose sauce: sweet n spicy/soy sauce</strong><br>Deep-fried boneless chicken thigh with sauce on the side</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /.col-md-6" -->
+                        </div><!-- /.content-inner -->
+                    </div><!-- /.content-tab -->
+                </div><!--flat-tabs-->  
+            </div><!--/.col-md-12-->
+        </div><!--/.row-->
+    </div><!--/.container -->
+</section>
+
+
+<!--flat-map -->
+
+    <footer class="footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="widget widget_text">
+                            <h3 class="widget-title">Contact</h3>
+                            <div class="textwidget">
+                                <ul class="footer-info">
+                                    <li class="address"><a href="https://www.google.com/maps/place/Seoul+Korean+Restaurant+(Bedford)+11+Bloom+Ln+unit104,+Bedford,+NS+B4B+1S8/@44.7074111,-63.7099504,17z/data=!4m6!3m5!1s0x4b598b02af37ffa9:0x260bd6ed4f963256!8m2!3d44.7074111!4d-63.7099504!16s%2Fg%2F11pz2l23pn
+                                        ">11 Bloom Ln unit 104, Bedford,
+                                        Nova Scotia, Canada. </a></li>
+                                    <li class="phone"><a href ="tel:+1 902 425 2237">Call us: 902-425-2237</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- /.col-md-3 -->
+
+
+                    <div class="col-md-3" >
+                        <style>
+                            .widget-link .social-links a,
+                            .widget-link .links a {
+                                font-size: 14px; /* Adjust the font size as needed */
+                            }
+                        </style>
+                        <div class="widget widget-link clearfix">
+                            <h3 class="widget-title">User Links </h3>
+
+                            <ul class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=100071142461547"><i class="fa fa-facebook-square"></i>Facebok</a>
+                                <a href="https://www.google.com/search?q=seoul+restaurant+bedford&sca_esv=559545509&hl=en&sxsrf=AB5stBg3Qwz0Yw7gEdISDTw03Dl5s8m2ww%3A1692840501110&source=hp&ei=NbLmZNSoBPyjptQPlrqvkA0&iflsig=AD69kcEAAAAAZObARe2DNgxn9Ze2nggh8C_xdvrXpZ9_&gs_ssp=eJzj4tVP1zc0LKgyyjEyLsgzYLRSNagwSTK1tEgyMEpMMzZPS0u0tDKoMDIzSEoxS00xSbM0MzYyNfOSKE7NL81RKEotLkksLUrMK1FISk1Jyy9KAQCmFhja&oq=seoul+restua&gs_lp=Egdnd3Mtd2l6IgxzZW91bCByZXN0dWEqAggBMgcQIxixAhgnMg4QLhivARjHARiKBRiRAjIIEAAYigUYkQIyCBAAGIoFGJECMggQABiKBRiRAjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjuGlC7AVj6EHABeACQAQCYAYMBoAH-CaoBAzMuObgBA8gBAPgBAagCCsICBxAjGOoCGCfCAgcQIxiKBRgnwgIHEAAYigUYQ8ICBxAuGIoFGEPCAhMQLhiKBRixAxiDARjHARjRAxhDwgILEC4YgAQYxwEY0QPCAhEQLhiABBixAxiDARjHARjRA8ICBRAAGIAEwgILEAAYgAQYsQMYgwHCAgQQIxgnwgINEC4YigUYsQMYgwEYQ8ICERAuGIoFGLEDGIMBGMcBGK8BwgILEAAYigUYsQMYgwHCAg0QLhiDARixAxiKBRhDwgIIEAAYigUYsQPCAgsQLhiDARixAxiABMICCBAAGIAEGLEDwgIFEC4YgATCAgsQLhivARjHARiABA&sclient=gws-wiz"><i class="fa fa-google"></i>Google</a>
+                                <a href="https://www.instagram.com/bedford_seoul_restaurant/"><i class="fa fa-instagram"></i>Instagram</a>
+                            </ul>
+                            <div class="links">
+                                <li><a href="https://www.ubereats.com/ca/store/seoul-korean-restaurant/V5rpkUhlWW6UclFx088XSA?diningMode=DELIVERY&ps=1&sc=SEARCH_SUGGESTION"><i class="fa fa"></i>Uber Eats</a></li>
+
+                                <li><a href="https://www.skipthedishes.com/seoul-korean-restaurant"><i class="fa fa"></i>Skip The Dish</a></li>
+
+                                <li><a href="https://www.doordash.com/en-CA/store/seoul-restaurant-bedford-24220010/?cursor=eyJzdG9yZV92ZXJ0aWNhbF9pZCI6bnVsbCwic2VhcmNoX2l0ZW1fY2Fyb3VzZWxfY3Vyc29yIjp7InF1ZXJ5Ijoic2VvdWwgcmVzdGF1cmFudCIsIml0ZW1faWRzIjpbXSwic2VhcmNoX3Rlcm0iOiJzZW91bCByZXN0YXVyYW50IiwidmVydGljYWxfaWQiOi05OSwidmVydGljYWxfbmFtZSI6IiJ9LCJzdG9yZV9wcmltYXJ5X3ZlcnRpY2FsX2lkcyI6WzFdLCJpc19zaWJsaW5nIjpmYWxzZSwiZm9yY2Vfc3RvcmVfYXZhaWxhYmlsaXR5X3YyIjpmYWxzZSwiYnVuZGxlX2dsb2JhbF9zZWFyY2hfY29udGV4dCI6bnVsbH0=&pickup=false"><i class="fa fa"></i>Doordash</a></li>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <style>
+                            .container {
+                                display: flex;
+                                flex-direction: column;
+
+                            }
+
+                            .day {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+
+                            }
+
+                            .day-name {
+                                 /* Adjust this width as needed */
+                                text-align: left;
+                            }
+
+                            .time {
+                                text-align: right;
+                            }
+                        </style>
+
+                        <div class="container">
+                            <h3 class="section-title">Restaurant Hours</h3>
+                            <div class="day">
+                                <span class="day-name">Monday</span>
+                                <span class="time">11:30 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Tuesday</span>
+                                <span class="time">11:30 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Wednesday</span>
+                                <span class="time">11:30 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Thursday</span>
+                                <span class="time">11:30 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Friday</span>
+                                <span class="time">11:30 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Saturday</span>
+                                <span class="time">12:00 AM - 9:00 PM</span>
+                            </div>
+                            <div class="day">
+                                <span class="day-name">Sunday</span>
+                                <span class="time">3:00 AM - 8:30 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.footer-widgets -->
+
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            <div class="copyright-content">
+                             Copyright © 2023. Designer by <a href="https://www.linkedin.com/in/fabian-jung-520bb3257/"> Fabian Jung</a>. All Rights Reserved</div>
+                        </div>
+                         <!-- Go Top -->
+                        <a class="go-top-v1"> <i class="fa fa-arrow-up"></i>  &nbsp;Back to Top</a>
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.footer-content -->
+    </footer>
+
+    </div><!--box -->
+
+ <!-- Javascript -->
+ <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.datetimepicker.full.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.easing.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/imagesloaded.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.isotope.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery-waypoints.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/parallax.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/smoothscroll.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/owl.carousel.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery-validate.js' %}"></script>
+ <!-- <script type="text/javascript" src="js/switcher.js"></script> -->
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvV0EE3yFozGhjmUv3BgoyviVdXzCwHlk"></script>
+ <script type="text/javascript" src="{% static 'js/gmap3.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.fancybox.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+ <!-- Revolution Slider -->
+ <script type="text/javascript" src="{% static 'js/jquery.themepunch.tools.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/jquery.themepunch.revolution.min.js' %}"></script>
+ <script type="text/javascript" src="{% static 'js/slider.js' %}"></script>
+
+</body>
+</html>
