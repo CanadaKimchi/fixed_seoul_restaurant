@@ -10,7 +10,7 @@ The website has been developed with **CSS, HTML, and Java Scripts**
 
 
 ## How to access on your own!!
-you can take this project and run this prompt to access the website on your own!!
+you can take this project and run this prompt in the terminal to access the website on your own!!
 ```
 python3 manage.py runserver
 ```
