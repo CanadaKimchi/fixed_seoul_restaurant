@@ -46,3 +46,7 @@ Follow these steps to set up the project on your local machine:
 If you have suggestions, enhancements, or would like to contribute to the project, feel free to open an issue or submit a pull request. Your feedback is valuable in making Seoul Bites' online presence even more delightful!
 
 Thank you for exploring Seoul Restaurant Website! 🍜🥢
+
+![working](https://github.com/CanadaKimchi/fixed_seoul_restaurant/assets/87531391/4aff362b-d2c7-45db-8d03-864479ab030e)
+
+
