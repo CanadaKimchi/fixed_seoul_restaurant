@@ -34,10 +34,6 @@ Follow these steps to set up the project on your local machine:
 ## Features
 
 - **Menu Showcase**: Explore the diverse range of Korean dishes with detailed descriptions and images.
-  
-- **Ambiance Gallery**: Take a virtual tour of the restaurant's ambiance through a captivating image gallery.
-
-- **Latest Offerings**: Stay updated on the latest promotions, events, and special dishes available at Seoul Restaurant.
 
 - **Contact Information**: Easily find the restaurant's contact details and location for reservations or inquiries.
 
