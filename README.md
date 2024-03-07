@@ -41,9 +41,6 @@ Follow these steps to set up the project on your local machine:
 
 - **Contact Information**: Easily find the restaurant's contact details and location for reservations or inquiries.
 
-## Contributing
-
-If you have suggestions, enhancements, or would like to contribute to the project, feel free to open an issue or submit a pull request. Your feedback is valuable in making Seoul Bites' online presence even more delightful!
 
 Thank you for exploring Seoul Restaurant Website! 🍜🥢
 
