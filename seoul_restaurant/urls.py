@@ -27,5 +27,3 @@ urlpatterns = [
     path('menu/', website.views.menu),
 
 ]
-
-urlpatterns += static(settings.STATICS_URL, documen_root=settings.STATIC_ROOT)
